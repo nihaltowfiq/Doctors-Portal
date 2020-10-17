@@ -1,0 +1,31 @@
+.appointment-wrapper{
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+.appointment-wrapper::before{
+    height: 412px;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    margin-top: 120px;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-image: url('../../../images/chair-bg-2.png');
+    background-size: cover;
+}
+.appointment-wrapper::after{
+    height: 412px;
+    content: ' ';
+    position: absolute;
+    margin-top: 120px;
+    top: 0;
+    left: 0;
+    background-color: #3a4256d5;
+    width: 100%;
+    z-index: -1;
+}
+.topper-margin{
+    margin-top: 150px;
+}
