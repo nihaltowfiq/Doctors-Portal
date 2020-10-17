@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import doctor from '../../../images/appointmentDoctor.png';
+import doctor from '../../../images/doctor.png';
 import './Appointment.css';
 
 const Appointment = () => {
