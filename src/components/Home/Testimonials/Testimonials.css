@@ -1,0 +1,22 @@
+.testimonials-upper{
+    height: 270px;
+    position: relative;
+}
+.testimonials-upper::after{
+    content: ' ';
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    z-index: -1;
+    background-image: url('../../../images/bg-icon.png');
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    top: 0;
+    right: 0;
+}
+.testimonial-card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
